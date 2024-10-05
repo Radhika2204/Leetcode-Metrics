@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(190, 221, 236);
+    color: rgb(92, 82, 82);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: rgb(165, 218, 200);
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+    max-width: 600px;
+
+}
+.userdetail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+
+}
+#usernameid{
+    width: 85%;
+    padding: 3px;
+    border-color: black;
+    border-radius: 2px;
+   
+}
+#btn{
+    padding: 3px;
+    border-color: black;
+    border-radius: 2px;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #299f5d;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1 rem;
+    color: white;
+    font-weight: 700;
+    background: conic-gradient(#299f5d var(--progress-degree, 0%), #283a2e 0%);
+    
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.stats-cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+h4{
+    font-size: 1rem;
+}
+
+.card{
+    background-color: rgb(230, 146, 44);
+    width: 40%;
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+}
